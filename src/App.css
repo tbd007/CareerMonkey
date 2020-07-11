@@ -81,8 +81,8 @@ body{
 }
 
 h1{
-  margin-right:10px;
-  font-family:'Permanent Marker'
+  margin-right:15px;
+  font-family:'Noto Sans'
 }
 
 h2, li{
@@ -357,6 +357,10 @@ input::placeholder
   margin:0 auto;
 }
 
+.search > button {
+  border: 0.5px solid rgba(128, 128, 128, 0.185);
+}
+
 #signout{
   padding: 5px 15px;
   color:black ;
@@ -380,6 +384,7 @@ button , .navlink{
   outline:none;
   border:none;
   border-radius:5px;
+  border:0.4px solid rgba(252, 25, 25, 0.424);
 }
 
 button:hover{

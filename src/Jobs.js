@@ -24,7 +24,7 @@ import Listing from './Listing';
                 <h2>John The Developer</h2>
                 
                 <div id="signout">
-                    <Link id="signoutlink" to="/home">Sign Out</Link>
+                    <Link id="signoutlink" to="/">Sign Out</Link>
                 </div>
             </div>
            
