@@ -566,7 +566,7 @@ margin-left:15px;
 }
 
 .maincontainer {
-  background:linear-gradient(rgba(45, 46, 45, 0.816), rgba(59, 59, 59, 0.801)), url('/images/logo.jpg');
+  background:linear-gradient(rgba(255, 255, 255, 0.726), rgba(233, 232, 232, 0.801)), url('/images/logo.jpg');
   background-size: 2cm;
   animation:none;
 }
