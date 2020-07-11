@@ -541,4 +541,8 @@ margin-left:15px;
   background-size: 2cm;
   animation:none;
 }
+
+#edit-btn{
+  margin-top:2px;
+}
 } 

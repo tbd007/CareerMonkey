@@ -37,7 +37,7 @@ class App extends React.Component {
           </ul>
           <div id="logo">
           <h1>CAREER MONKEY</h1>  
-          <img id="logopic" src="images/logo.jpg" alt="logo" width="80" height="60"/>
+          <img id="logopic" src="images/logo.jpg" alt="logo" width="80" height="60" />
           </div>
         </nav>
         </div>
