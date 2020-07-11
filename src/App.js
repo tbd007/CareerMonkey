@@ -29,10 +29,10 @@ class App extends React.Component {
         <nav>
           <ul id="navul">
             <li className="navlink">
-              <Link to="/">GET STARTED</Link>
+              <Link style={{color:"white", textShadow:"1px 1px 2px gray"}} to="/">GET STARTED</Link>
             </li>
             <li className="navlink">
-              <Link to="/jobs">Jobs</Link>
+              <Link style={{color:"white", textShadow:"1px 1px 2px gray"}} to="/jobs">Jobs</Link>
             </li>
           </ul>
           <div id="logo">
