@@ -35,9 +35,10 @@ body{
 }
 
 .maincontainer {
-  background:radial-gradient(rgba(114, 190, 103, 0.747),rgba(113, 173, 98, 0.918)), url("/images/logo.jpg");
-  background-size: 4cm;
+  background:radial-gradient(rgba(136, 226, 122, 0.747),rgba(139, 211, 121, 0.918)), url("/images/logo.jpg");
+  background-size: 3cm;
   animation: MOVE-BG 3s ease-in-out;
+  
 }
 
 .App-logo {
@@ -178,6 +179,7 @@ a {
   font-size:1.2rem;
   font-weight:bold;
   color:white;
+  text-shadow:2px 2px 5px rgb(46, 46, 46);
   box-shadow: 0 10px 25px rgba(0, 0, 0, .3), inset 0 -10px 25px rgba(0, 0, 0, .3);
 }
 
@@ -257,22 +259,27 @@ a {
 input
 {
 	height: 40px;
-	width: 300px;
+	width: 270px;
 	/*background-color: #254E58;*/
 	border-radius: 20px;
 	border:none;
 	color: #5a5449;
 	text-indent: 15px;
 	font-size: 100%;
-	box-shadow: 0 10px 25px rgba(0, 0, 0, .2),  0 -10px 25px rgba(199, 199, 199, 0.2);
+	box-shadow: 0 10px 15px rgba(0, 0, 0, .2),  0 -10px 15px rgba(199, 199, 199, 0.2);
 	outline: none;
 }
 input::placeholder
 {
-	color:lightgrey;
+	color:rgb(177, 176, 176);
 	font-size: 100%;
 	font-weight: lighter;
-	text-indent: 15px;
+  text-indent: 0px;
+  text-align:center;
+}
+input:focus{
+  border:1px solid rgba(115, 158, 111, 0.425);
+  transform:scale(1.05);
 }
 .sbutton
 {
