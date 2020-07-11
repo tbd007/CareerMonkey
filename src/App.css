@@ -474,6 +474,16 @@ h2{
 
 .search > button {
   margin:3px;
+  background-color:rgba(152, 251, 152, 0.678);
+  box-shadow:none;
+}
+
+#navbar, #navul>li {
+  background-color:rgba(152, 251, 152, 0.678);
+}
+
+button {
+  background:rgba(152, 251, 152, 0.678)
 }
 
 #skills{
