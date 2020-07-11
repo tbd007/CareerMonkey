@@ -474,16 +474,20 @@ h2{
 
 .search > button {
   margin:3px;
-  background-color:rgba(152, 251, 152, 0.678);
+  background-color:rgba(154, 253, 154, 0.678);
   box-shadow:none;
 }
 
 #navbar, #navul>li {
-  background-color:rgba(152, 251, 152, 0.678);
+  background-color:rgba(126, 247, 126, 0.678);
+
 }
 
+
+
 button {
-  background:rgba(152, 251, 152, 0.678)
+  background:rgba(211, 248, 211, 0.678);
+ 
 }
 
 #skills{
@@ -535,9 +539,11 @@ button {
 #navul > li {
   margin:5px;
   padding:5px;
+ 
 }
 #navul {
   margin-left:-10px;
+
 }
 
 .monkeylogin{
@@ -560,6 +566,11 @@ margin-left:15px;
 }
 
 #edit-btn{
-  margin-top:2px;
+  margin-top:0px;
+  background:palegreen;
+}
+
+#post{
+  box-shadow: 0 6px 10px rgba(34, 34, 34, 0.322);
 }
 } 
