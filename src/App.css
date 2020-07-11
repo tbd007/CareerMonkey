@@ -127,7 +127,7 @@ a {
 }
 
 #logo > img:hover {
-  animation: App-logo-spin  0.3s linear infinite;
+  animation: App-logo-spin  0.3s linear ;
 }
 
 #logo{
@@ -534,5 +534,11 @@ h2{
 
 .search {
 margin-left:15px;
+}
+
+.maincontainer {
+  background:linear-gradient(rgba(255, 255, 255, 0.849), rgba(255, 255, 255, 0.918)), url("/images/logo.jpg");
+  background-size: 2cm;
+  animation:none;
 }
 } 
