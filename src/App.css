@@ -527,4 +527,12 @@ h2{
   width:90%;
   margin:0 auto;
 }
+
+.listings{
+  background:white;
+}
+
+.search {
+margin-left:15px;
+}
 } 
