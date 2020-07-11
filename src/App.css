@@ -82,7 +82,10 @@ body{
 
 h1{
   margin-right:15px;
-  font-family:'Noto Sans'
+  font-family:'Permanent Marker';
+  color:white;
+  text-shadow:2px 2px 5px rgb(51, 50, 50);
+  letter-spacing:0.1em;
 }
 
 h2, li{
@@ -384,7 +387,7 @@ button , .navlink{
   outline:none;
   border:none;
   border-radius:5px;
-  border:0.4px solid rgba(252, 25, 25, 0.424);
+  border:0.4px solid rgb(255, 254, 254);
 }
 
 button:hover{
